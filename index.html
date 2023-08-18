@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h3>guess the word</h3>
+        <div class="content">
+            <input style="background: #eeee;" type="text" class="typing-input" maxlength="1">
+            <div class="inputs">
+                <!-- <input type="text" disabled> -->
+            </div>
+            <div class="details">
+                <p class="hint">hint : <span>hill will be shown here.</span></p>
+                <p class="guess-left">remaining guesses : <span></span></p>
+                <p class="wrong-letter">wrong letter : <span></span></p>
+            </div>
+            <button>reset Game</button>
+        </div>
+    </div>
+
+    <script src="word.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
